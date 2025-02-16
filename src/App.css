@@ -33,3 +33,15 @@ h1 {
   align-items: center;
   justify-content: center;
 }
+
+@media screen and (max-screen:768px) {
+  html, body {
+    font-size: 16px;
+  }
+
+  h1{
+    max-width: 600px;
+    font-size: 2rem;
+  }
+  
+}

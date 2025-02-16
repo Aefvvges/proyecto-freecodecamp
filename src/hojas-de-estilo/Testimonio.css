@@ -36,3 +36,17 @@
     font-size: 1.1rem;
     text-align: justify;
 }
+
+@media screen and (max-width: 768px) {
+    .contenedor-testimonio {
+        display: block;
+        width: 80%;
+        height: auto;
+    }
+
+    .imagen-testimonio {
+        height: auto;
+        width: 50%;
+        padding-top: 20px;
+    }
+}
